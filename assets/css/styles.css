@@ -1,0 +1,257 @@
+/* Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+ */
+ /* font-family: 'Lato', sans-serif;
+ font-family: 'Merriweather', serif; */
+/* ************** */
+body
+{
+    font-family: 'Merriweather', serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav
+{
+    text-align: right;
+    display: inline;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+nav> ul> a
+{
+    color: #202020;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 2%;
+}
+header>div h1
+{
+    margin-top: 20%;
+    font-size: 84px;
+}
+header> div p
+{
+    font-size: 24px;
+    line-height: 40px;
+}
+header>div img
+{
+    width:600px
+}
+.Position
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Buttons
+{
+    display: flex;
+}
+#buttonOne
+{
+    width: 100px;
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#buttonTwo
+{
+    width: 100px;
+    background-color: #fff;
+    color: #202020;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/* ************** */
+
+
+main{
+    margin-top:20vh;
+}
+main>div img
+{
+    width:600px
+}
+main>div h1
+{
+    margin-top: 20%;
+    font-size: 84px;  
+}
+main> div p
+{
+    font-size: 24px;
+    line-height: 40px;
+}
+#second
+{
+    margin-left: 10vw;
+}
+
+
+/* ************** */
+.section_Position
+{
+    display:flex;
+    justify-content: space-between;
+    
+}
+main>section{
+    margin-top:20vh;
+}
+main>section>div img
+{
+    width:600px
+}
+main>section>div h1
+{
+    margin-top: 20%;
+    font-size: 84px;  
+}
+main>section div p
+{
+    font-size: 24px;
+    line-height: 40px;
+}
+section> #second
+{
+    margin-left: 0;
+}
+/* ************** */
+#third
+{
+    text-align: center;
+}
+#third h1
+{
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+#images
+{
+    display: flex;
+}
+#images img:hover
+{
+    border:5px solid #F5FBFE;
+}
+/* ************** */
+.pictures
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.pictures img
+{
+    width:600px;
+}
+.pictures img:hover
+{
+    border:5px solid #F5FBFE;
+}
+/* ************** */
+#membership
+{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F5FBFE;
+    width:400px;
+    height: 830px; 
+}
+#membership h1
+{
+    padding-top: 100px;
+    font-size: 36px;
+}
+#membership h2
+{
+    font-size: 84px;
+}
+#membership h3
+{
+    color:#3b5998;
+}
+#membership p
+{
+    line-height: 15px;
+    
+}
+#membership div
+{
+    margin:0 auto;
+    background-color:#24bff2;
+    width: 260px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* ************** */
+footer
+{
+    margin-top: 100px;
+}
+#fourth
+{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+footer>#fourth  p
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #3b5998;
+}
+footer>#fourth  a
+{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.fifth
+{    
+    text-align: center;
+    display: inline-flex;
+}
+.fifth p
+{
+    margin:0 auto ;
+    text-align: center;
+    padding-left: 20px;
+}
+#fourth .fifth p:nth-of-type(4)::before
+{
+    content:"\002E";
+    font-size: 36px;
+    color: #c4302b;
+}
+#fourth .fifth p:nth-of-type(3)::before
+{
+    content:"\002E";
+    font-size: 36px;
+    color: #55acee;
+}
+#fourth .fifth p:nth-of-type(2)::before
+{
+    content:"\002E";
+    font-size: 36px;
+    color:#fcaf45
+}
+#fourth .fifth p:nth-of-type(1)::before
+{
+    content:"\002E";
+    font-size: 36px;
+    color:#3b5998;
+}
